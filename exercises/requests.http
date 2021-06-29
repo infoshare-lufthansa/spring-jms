@@ -1,0 +1,8 @@
+POST http://localhost:8080/api/complaints
+Content-Type: application/json
+
+{
+  "amount": 10,
+  "reason": "Some kind of reason",
+  "email": "test@example.com"
+}
