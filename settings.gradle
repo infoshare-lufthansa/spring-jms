@@ -1,1 +1,3 @@
-rootProject.name = 'spring-amqp'
+rootProject.name = 'spring-jms'
+
+include 'notifications', 'webapp', 'complaint-verifier'

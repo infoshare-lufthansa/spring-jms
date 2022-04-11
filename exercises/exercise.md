@@ -11,7 +11,7 @@ Zaimplementuj serwis `webapp` tak, aby:
 2. Po otrzymaniu nowej skargi wysłał zapytanie do `complaint-verifier` i oczekiwał na wynik
 3. Na podstawie otrzymanego wyniku wyśle do jednej z kolejek (`notification.accepted` lub `notifications.rejected`) wiadomość o rezultacie.
 
-Zaimplementuj serwis `notifications` tak, aby nasłuchiwał na obie kolejki (`notification.accepted` lub `notifications.rejected`) i zależnie od wyniku akcji wypisał odpowiednią wiadomość:
+Zaimplementuj serwis `notifications` tak, aby nasłuchiwał na obie kolejki (`notification.accepted` lub `notifications.rejected`) i zależnie od wyniku akcji wypisał na odpowiednią wiadomość:
  - success - "Congratulations, your complaint was accepted. Number of complaint: <number>"
  - rejected - "You complaint was rejected.".
 
