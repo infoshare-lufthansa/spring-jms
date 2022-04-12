@@ -5,7 +5,7 @@ Poniższy system do zarządzania skargami składa się z trzech aplikacji:
 
 Zaimplementuj serwis `webapp` tak, aby:
 1. Posiadał endpoint POST /api/complaints, który następujące dane:
-    - reason - co najmniej znaków, maksymalnie 10
+    - reason - co najmniej 10 znaków
     - amount - tylko liczby większe niż zero
     - email
 2. Po otrzymaniu nowej skargi wysłał zapytanie do `complaint-verifier` i oczekiwał na wynik
